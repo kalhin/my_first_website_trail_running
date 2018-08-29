@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+:root {
+    font-family: 'M PLUS Rounded 2c', sans-serif; 
+    font-weight: bold;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
