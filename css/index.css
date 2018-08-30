@@ -10,6 +10,136 @@ body {
     margin: auto;
 }
 
+header {
+    display: flex;
+    min-height: 90px
+}
+
+header h1 {
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+header h1:first-letter {
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+}
+
+.green-logo-letters{
+    color: #72BB53;
+    letter-spacing: -5px;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    height: 100%;
+    margin: 0
+}
+
 header nav ul li {
     list-style-type: none;
+    margin-right: 0px;
+    margin-top: 15px;
+    min-width: 130px;
+    text-align: center;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    background-color: #72BB53;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+main .green-backgroung {
+    background-color: #72BB53;
+    display: flex;
+}
+
+main .green-backgroung a {
+    text-decoration: none;
+    color: white;
+}
+
+main .all_competition {
+    display: flex;
+}
+
+main .competition{
+    background-color: #72BB53;
+}
+
+main .competition a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+main section h2 {
+    justify-content: center;
+    display: flex;
+}
+
+main section h2 .green-counter {
+    color: #72BB53;
+    font-size: 150%;
+}
+
+main section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#send_button {
+    background-color: #72BB53;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 80px;
+}
+
+
+
+
+footer .links {
+    display: flex;
+    background-color: #72BB53;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .links a {
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+    
 }
