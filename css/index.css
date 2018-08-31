@@ -6,7 +6,7 @@
 }
 
 body {
-    max-width: 800px;
+    max-width: 980px;
     margin: auto;
 }
 
@@ -69,42 +69,60 @@ header nav ul li a:hover {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    color: white 
 }
 
+.myslides {
+    width: 100%;
+}
 
-
-
-
-
-
-main .green-backgroung {
+.green-backgroung {
     background-color: #72BB53;
     display: flex;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
 }
 
-main .green-backgroung a {
+.green-backgroung a {
     text-decoration: none;
     color: white;
 }
 
-main .all_competition {
+.all_competition {
     display: flex;
 }
 
-main .competition{
-    background-color: #72BB53;
+.backgroung_image {
+    position: relative;
+    width: 260px;
 }
 
-main .competition a{
+.front_logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.competition{
+    background-color: #72BB53;
+    margin-left: 50px;
+    max-height: 346px;
+}
+
+.competition a{
     text-decoration: none;
     color: white;
 }
 
-
+.position_info {
+    margin-left: 20px;
+}
 
 main section h2 {
     justify-content: center;
     display: flex;
+    margin-top: 80px;
 }
 
 main section h2 .green-counter {
@@ -126,10 +144,7 @@ main section form {
     margin-bottom: 80px;
 }
 
-
-
-
-footer .links {
+.links {
     display: flex;
     background-color: #72BB53;
     height: 80px;
@@ -137,9 +152,8 @@ footer .links {
     align-items: center;
 }
 
-footer .links a {
+.links a {
     text-decoration: none;
     color:white;
     margin: 20px;
-    
 }
