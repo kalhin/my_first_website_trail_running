@@ -81,7 +81,6 @@ header nav ul li a:hover {
     display: flex;
     margin-top: 80px;
     margin-bottom: 80px;
-    position: relative;
 }
 
 .green-backgroung a {
@@ -89,8 +88,15 @@ header nav ul li a:hover {
     color: white;
 }
 
+.direction_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .all_competition {
     display: flex;
+    justify-content: space-around;
 }
 
 .backgroung_image {
@@ -106,8 +112,8 @@ header nav ul li a:hover {
 
 .competition{
     background-color: #72BB53;
-    margin-left: 50px;
     max-height: 346px;
+    width: 260px;
 }
 
 .competition a{
