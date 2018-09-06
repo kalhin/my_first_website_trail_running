@@ -18,7 +18,6 @@ header {
 header h1 {
     font-size: 25px;
     margin-left: 30px;
-    margin-top: 15px;
 }
 
 header h1:first-letter {
@@ -48,7 +47,6 @@ header nav ul {
 header nav ul li {
     list-style-type: none;
     margin-right: 0px;
-    margin-top: 15px;
     min-width: 130px;
     text-align: center;
 }
@@ -76,72 +74,222 @@ header nav ul li a:hover {
     width: 100%;
 }
 
-.green-background {
+.green-background{
+    display: grid;
+    grid-template-columns: 35px repeat(4, auto) 35px;;
     background-color: #72BB53;
     margin-top: 80px;
-    height: 230px;
-    display: inline-grid;
-    grid-template-columns: auto auto auto auto;
-    
 }
 
-.green-background a {
-    text-decoration: none;
+h2{
     color: white;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+}
+
+.green-background p{
+    color: white;
+    font-size: 15px;
+    width: 135px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+
+.group_1{
+    grid-column-start: 2;
+    grid-template-rows: 80px 45px 40px 80px;
     display: grid;
-    grid-template-rows: 100px 5px 60px auto;
 }
 
-.backgroung_image {
-    position: relative;
-    width: 260px;
+.group_2{
+    grid-column-start: 3;
+    grid-template-rows: 80px 45px 40px 80px;
+    display: grid;
 }
 
-.front_logo {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+.group_3{
+    grid-column-start: 4;
+    grid-template-rows: 80px 45px 40px 80px;
+    display: grid;
+}
+
+.group_4{
+    grid-column-start: 5;
+    grid-template-rows: 80px 45px 40px 80px;
+    display: grid;
+}
+
+
+.green-background a{
+    grid-row-start: -1;
+}
+
+.plasing_img_1{
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.plasing_img_2{
+    margin: auto;
+}
+
+@media (max-width: 600px){
+    header nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    
+    .green-background{
+        display: list-item;
+    }
+    
+    .green-background p{
+        width: auto;
+        height: 25px;
+    }
+    
+    .group_1{
+        grid-template-rows: 80px 45px 15px 50px;
+    }
+    
+    .group_2{
+        grid-template-rows: 80px 45px 15px 50px;
+    }
+    
+    .group_3{
+        grid-template-rows: 80px 45px 15px 50px;
+    }
+    
+    .group_4{
+        grid-template-rows: 80px 45px 15px 50px;
+    }
+    
+    main section form {
+        display: grid;
+    }
+    
+    .label_style{
+        width: 360px;
+        grid-template-columns: auto;
+    }
+}
+
+
+
+
+
+
+
+.all_competition{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+@media (max-width: 800px){
+    .all_competition{
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 250px auto;
+    }
+    .competition{
+        margin-top: 50px;
+        width: 360px;
+    }
+}
+
+@media (max-width: 550px){
+    .all_competition{
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
 
 .competition{
     background-color: #72BB53;
     max-height: 346px;
     width: 260px;
+    position: relative;
 }
+
+
 
 .competition a{
     text-decoration: none;
     color: white;
 }
 
+.front_logo{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
 .position_info {
     margin-left: 20px;
 }
 
-main section h2 {
-    justify-content: center;
-    display: flex;
+main section h3 {
+    text-align: center;
     margin-top: 80px;
 }
 
-main section h2 .green-counter {
+.green-counter {
     color: #72BB53;
     font-size: 150%;
 }
 
 main section form {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+}
+
+.label_style{
+    color: #7A7A7A;
+    display: grid;
+    grid-template-columns: auto 300px auto;
+}
+
+.frame_1{
+    border-color: #72BB53;
+    width: 300px;
+    height: 30px;
+    margin-left: -25px;
+}
+
+.frame_2{
+    border-color: #72BB53;
+    width: 300px;
+    height: 30px;
+    margin-left: -59px;
+}
+
+.frame_3{
+    border-color: #72BB53;
+    width: 300px;
+    height: 30px;
+    margin-left: -70px;
 }
 
 #send_button {
     background-color: #72BB53;
     color: white;
+    font-weight: bold;
     border: none;
     width: 100px;
     height: 40px;
-    margin-bottom: 80px;
+    margin: auto;
 }
+
 
 .links {
     display: flex;
@@ -149,10 +297,11 @@ main section form {
     height: 80px;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .links a {
     text-decoration: none;
-    color:white;
+    color: white;
     margin: 20px;
 }
