@@ -109,10 +109,20 @@ h2{
     display: grid;
 }
 
+.group_1:hover{
+    cursor: pointer;
+    background-color: #88bd72;
+}
+
 .group_2{
     grid-column-start: 3;
     grid-template-rows: 80px 45px 40px 80px;
     display: grid;
+}
+
+.group_2:hover{
+    cursor: pointer;
+    background-color: #88bd72;
 }
 
 .group_3{
@@ -121,10 +131,20 @@ h2{
     display: grid;
 }
 
+.group_3:hover{
+    cursor: pointer;
+    background-color: #88bd72;
+}
+
 .group_4{
     grid-column-start: 5;
     grid-template-rows: 80px 45px 40px 80px;
     display: grid;
+}
+
+.group_4:hover{
+    cursor: pointer;
+    background-color: #88bd72;
 }
 
 
@@ -147,6 +167,11 @@ h2{
         justify-content: center;
         align-items: flex-end;
         flex-direction: column;
+    }
+    
+    header nav ul li a:hover{
+        padding: unset;
+        margin: unset;
     }
     
     .green-background{

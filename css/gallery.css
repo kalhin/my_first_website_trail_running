@@ -116,13 +116,11 @@ h2{
 /*photos*/
 .image{
     height: 156px;
-    z-index: -1;
 }
 
 .image:hover{
-    background-color: red;
-    z-index: 2;
     cursor: pointer;
+    opacity: 0.7;
 }
 
 #container_images{
@@ -138,5 +136,17 @@ h2{
 @media (max-width: 600px){
     .image{
         height: 250px;
+    }
+    
+    header nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    
+    header nav ul li a:hover{
+        padding: unset;
+        margin: unset;
     }
 }
