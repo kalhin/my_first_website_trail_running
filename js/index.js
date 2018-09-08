@@ -12,3 +12,6 @@ function carousel() {
     x[myIndex-1].style.display = "block";  
     setTimeout(carousel, 2000); // Change image every 2 seconds
 }
+
+const linkWhatIsIt = document.querySelector('.group_1 a');
+linkWhatIsIt.href = 'https://trail-running-runingboy.c9users.io/what_it_is.html';

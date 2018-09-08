@@ -162,13 +162,6 @@ h2{
 }
 
 @media (max-width: 600px){
-    header nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        flex-direction: column;
-    }
-    
     header nav ul li a:hover{
         padding: unset;
         margin: unset;
@@ -176,6 +169,7 @@ h2{
     
     .green-background{
         display: list-item;
+        margin-top: 50px;
     }
     
     .green-background p{
@@ -205,7 +199,15 @@ h2{
     
     .label_style{
         width: 360px;
-        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 680px){
+    header nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
     }
 }
 
@@ -237,6 +239,7 @@ h2{
     .all_competition{
         display: grid;
         grid-template-columns: auto;
+        margin-top: 0px
     }
 }
 
@@ -247,6 +250,9 @@ h2{
     position: relative;
 }
 
+.competition:hover{
+    opacity: 0.7;
+}
 
 
 .competition a{
