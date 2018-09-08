@@ -103,7 +103,7 @@ h2{
 h3{
     text-align: center;
     font-size: 22px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -116,22 +116,26 @@ h3{
 .image_content_position_left{
     float: left;
     margin-right: 15px;
-    margin-bottom: 15px;
+    width: 240px;
 }
 
 .content_text{
     color: white;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
     margin-right: 15px;
     margin-left: 15px;
+    min-height: 151px;
+    padding-top: 10px;
+    margin-bottom: 0px;
 }
 
 .image_content_position_right{
     float: right;
     margin-left: 15px;
     margin-bottom: 15px;
+    width: 240px;
 }
 
 
@@ -172,5 +176,28 @@ h3{
     
     .frame_1{
         margin: unset;
+    }
+    
+    .image_content_position_left{
+        margin-right: 0px;
+        width: 100%;
+        float: none;
+        position: relative;
+        margin-bottom: 0px;
+    }
+    
+    .image_content_position_right{
+        margin-left: 0px;
+        width: 100%;
+        float: none;
+        position: relative;
+        margin-bottom: 0px;
+    }
+    
+    .content_text{ 
+        font-size: 20px;
+        padding-top: 0px;
+        margin-top: 10px;
+        padding-bottom: 10px;
     }
 }

@@ -72,21 +72,7 @@ header nav ul li a:hover {
 }
 
 
-/*footer*/
-.links {
-    display: flex;
-    background-color: #72BB53;
-    height: 80px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 80px;
-}
 
-.links a {
-    text-decoration: none;
-    color: white;
-    margin: 20px;
-}
 
 /*main*/
 /*green_line*/
@@ -153,4 +139,20 @@ h2{
     .frame_1{
         margin: unset;
     }
+}
+
+/*footer*/
+.links {
+    display: flex;
+    background-color: #72BB53;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
 }
