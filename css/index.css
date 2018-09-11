@@ -10,6 +10,11 @@ body {
     margin: auto;
 }
 
+#mainLogo {
+    text-decoration: none;
+    color: black;
+}
+
 header {
     display: flex;
     min-height: 90px
@@ -150,6 +155,7 @@ h2{
 
 .green-background a{
     grid-row-start: -1;
+    text-decoration: none;
 }
 
 .plasing_img_1{
@@ -162,11 +168,6 @@ h2{
 }
 
 @media (max-width: 600px){
-    header nav ul li a:hover{
-        padding: unset;
-        margin: unset;
-    }
-    
     .green-background{
         display: list-item;
         margin-top: 50px;
@@ -197,12 +198,25 @@ h2{
         display: grid;
     }
     
-    .label_style{
-        width: 360px;
+    .frame_1 {
+        max-width: 300px;
+    }
+    
+    .frame_2 {
+        max-width: 300px;
+    }
+    
+    .frame_3 {
+        max-width: 300px;
     }
 }
 
 @media (max-width: 680px){
+    header nav ul li a:hover{
+        padding: unset;
+        margin: unset;
+    }
+    
     header nav ul{
         display: flex;
         justify-content: center;
@@ -282,33 +296,33 @@ main section h3 {
 
 main section form {
     display: grid;
+    justify-content: center;
 }
 
 .label_style{
     color: #7A7A7A;
     display: grid;
-    grid-template-columns: auto 300px auto;
 }
 
 .frame_1{
     border-color: #72BB53;
-    width: 300px;
     height: 30px;
-    margin-left: -25px;
+    width: 500px;
+    font-size: 18px;
 }
 
 .frame_2{
     border-color: #72BB53;
-    width: 300px;
     height: 30px;
-    margin-left: -59px;
+    width: 500px;
+    font-size: 18px;
 }
 
 .frame_3{
     border-color: #72BB53;
-    width: 300px;
     height: 30px;
-    margin-left: -70px;
+    width: 500px;
+    font-size: 18px;
 }
 
 #send_button {
