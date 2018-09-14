@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
     <link rel="stylesheet" href="css/gallery.css">
 </head>
 <body>
@@ -34,14 +37,36 @@
             <img id="logo_gallery" src="img/gallery.png" alt="logo gallery">
             <h2>GALLERY</h2>
         </div>
-        <div id="container_images">
+        <div class="container">
+            <div class="row">
+                <a href="img/slider/a_man_running_from_the_mountain.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="img/slider/a_man_running_from_the_mountain.jpg" alt="a man running from the mountain" class="img-fluid rounded">
+                </a>
+                <a href="img/slider/karpathia_2018.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="img/slider/karpathia_2018.jpg" alt="karpathia competition" class="img-fluid rounded">
+                </a>
+                <a href="img/slider/kilian_jornet.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="img/slider/kilian_jornet.jpg" alt="kilian jornet" class="img-fluid rounded">
+                </a>
+                <a href="img/slider/many_people.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="img/slider/many_people.jpg" alt="many people" class="img-fluid rounded">
+                </a>
+                <a href="img/slider/women.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="img/slider/women.jpg" alt="women" class="img-fluid rounded">
+                </a>
+                <a href="img/slider/ukr_team_untb.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                    <img src="img/slider/ukr_team_untb.jpg" alt="women" class="img-fluid rounded">
+                </a>
+            </div>
+        </div>
+        <!--<div class="container_image">
             <img class="image" src="img/slider/a_man_running_from_the_mountain.jpg" alt="a man running from the mountain">
             <img class="image" src="img/slider/karpathia_2018.jpg" alt="karpathia competition">
             <img class="image" src="img/slider/kilian_jornet.jpg" alt="kilian jornet">
             <img class="image" src="img/slider/many_people.jpg" alt="many people">
             <img class="image" src="img/slider/women.jpg" alt="women">
             <img class="image" src="img/slider/ukr_team_untb.jpg" alt="women">
-        </div>
+        </div>-->
     </main>
     <footer>
         <div class="links">
@@ -50,5 +75,16 @@
             <a href="https://www.youtube.com/channel/UC4L80l4XOSl1HqK-61Vp2RQ?view_as=subscriber">youtube</a>
         </div>
     </footer>
+    <script src="js/gallery.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
