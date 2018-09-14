@@ -1,4 +1,13 @@
+
+
+
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+
+.row {
+  margin: 15px;
+  margin-top: 50px;
+}
 
 :root {
     font-family: 'M PLUS Rounded 2c', sans-serif; 
@@ -8,10 +17,7 @@
 
 
 
-.row {
-  margin: 15px;
-  margin-top: 50px;
-}
+
 
 
 

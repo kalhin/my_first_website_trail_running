@@ -211,7 +211,7 @@ h2{
     }
 }
 
-/*@media (max-width: 680px){
+@media (max-width: 680px){
     header nav ul li a:hover{
         padding: unset;
         margin: unset;
@@ -223,26 +223,8 @@ h2{
         align-items: flex-end;
         flex-direction: column;
     }
-}*/
-
-.fa-1x {
-    font-size: 1.5rem;
-}
-.navbar-toggler.toggler-example {
-    cursor: pointer
 }
 
-@media (min-width: 680px){
-    .navbar navbar-light light-blue lighten-4{
-        display: none
-    }
-}
-
-@media (max-width: 680px){
-    .heder_full_screen{
-        display: none;
-    }
-}
 
 
 
