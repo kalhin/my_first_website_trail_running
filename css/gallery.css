@@ -1,28 +1,13 @@
-
-
-
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
+/*lightbox start*/
 
-.row {
-  margin: 15px;
-  margin-top: 50px;
-}
+/*lightbox end*/
 
 :root {
     font-family: 'M PLUS Rounded 2c', sans-serif; 
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
 
 body {
     max-width: 980px;
@@ -95,6 +80,20 @@ header nav ul li a:hover {
     color: white 
 }
 
+@media (max-width: 680px){
+    header nav ul li a:hover{
+        padding: unset;
+        margin: unset;
+    }
+    
+    header nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+}
+
 
 
 
@@ -122,62 +121,19 @@ h2{
     position: relative;
 }
 
-
 /*photos*/
-.image{
-    height: 156px;
-}
-
-.image:hover{
-    cursor: pointer;
-    opacity: 0.7;
-}
-
-.container_image{
+.gallery {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
     justify-content: center;
-    
 }
 
-@media (max-width: 600px){
-    .image{
-        width: 80%;
-        height: 80%;
-    }
-    
-    header nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        flex-direction: column;
-    }
-    
-    header nav ul li a:hover{
-        padding: unset;
-        margin: unset;
-    }
-    
-    .frame_1{
-        margin: unset;
-    }
-}
-
-@media (max-width: 680px){
-    header nav ul li a:hover{
-        padding: unset;
-        margin: unset;
-    }
-    
-    header nav ul{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        flex-direction: column;
-    }
+.size_image {
+    width: 270px;
+    margin: 15px;
+    margin-top: 7px;
+    box-shadow: 10px 10px 20px 0px #6a280091;
 }
 
 /*footer*/
@@ -187,7 +143,7 @@ h2{
     height: 80px;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .links a {
