@@ -124,7 +124,7 @@ h2{
 }
 
 /*photos*/
-.gallery {
+.all_gallery {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;

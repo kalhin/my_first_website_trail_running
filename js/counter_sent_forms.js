@@ -1,4 +1,4 @@
- document.querySelector('form')
+document.querySelector('form')
     .addEventListener('submit', function(e){
     if(e.target.checkValidity()){
         if (localStorage['send-counter'] === undefined){
