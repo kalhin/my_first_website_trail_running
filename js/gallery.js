@@ -1,6 +1,3 @@
-//lightbox.options({
-//    'alwaysShowNavOnTouchDevices': true,
-//    'wrapAround': true
-//})
-
-
+$(document).ready(function() {
+    $('.fancybox').fancybox();
+});

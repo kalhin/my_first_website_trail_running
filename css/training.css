@@ -94,6 +94,12 @@ header nav ul li a:hover {
     margin-top: 10px;
 }
 
+@media (max-width: 400px) {
+    #logo_what_it_is {    
+        display: none;
+    }
+}
+
 h2{
     margin: auto;
     color: white;

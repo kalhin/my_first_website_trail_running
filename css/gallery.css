@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
-/*lightbox start*/
-
-/*lightbox end*/
-
 :root {
     font-family: 'M PLUS Rounded 2c', sans-serif; 
     font-weight: bold;
@@ -112,6 +108,12 @@ header nav ul li a:hover {
     position: absolute;
     margin-left: 55px;
     margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+    #logo_gallery {    
+        display: none;
+    }
 }
 
 h2{
