@@ -1,3 +1,13 @@
+function counterValue () {
+    const display = document.querySelector('.display');
+    if (localStorage.length = 0){
+        display.value = 0;
+    } else {
+    display.value = localStorage['send-counter']; 
+    }
+}
+
+
 document.querySelector('form')
     .addEventListener('submit', function(e){
     if(e.target.checkValidity()){
@@ -9,5 +19,7 @@ document.querySelector('form')
     }
 });
 
-const display = document.querySelector('.display');
-display.value = localStorage['send-counter'];
+
+
+
+
